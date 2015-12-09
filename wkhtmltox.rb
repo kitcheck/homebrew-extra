@@ -3,9 +3,9 @@ require "formula"
 class Wkhtmltox < Formula
   homepage "http://wkhtmltopdf.org"
 
-  url "http://downloads.sourceforge.net/project/wkhtmltopdf/0.12.2.1/wkhtmltox-0.12.2.1_osx-cocoa-x86-64.pkg"
-  version "0.12.2.1"
-  sha1 "066019461b5e2e0ec88dacd009494fb3a8afad07"
+  url "http://download.gna.org/wkhtmltopdf/0.12/0.12.2/wkhtmltox-0.12.2_osx-cocoa-x86-64.pkg"
+  version "0.12.2.2"
+  sha1 "26eb2cd7d678f715b542029273651766a27fbb31"
 
   depends_on "xz" => :build
 
